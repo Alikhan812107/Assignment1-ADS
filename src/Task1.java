@@ -1,10 +1,16 @@
 
-// importing a scanner allows to read ind take what user inputted (or inputting)
+// importing a scanner allows to read and take what user inputted (or inputting)
 import java.util.Scanner;
 
 // "findMinimum" method is a playing a role of a function which mainly finds the lowest value in an array
 // By assuming the container min is the first element of an array (which is minimum value(not yet)), it compares with other values in an array and makes decision what is the lowest
 
+/**
+ *
+ *
+ *
+ *
+ */
 public class Task1 {
     public static int findMinimum(int[] arr) {
         int min = arr[0];
