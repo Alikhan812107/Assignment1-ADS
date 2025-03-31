@@ -6,11 +6,11 @@ import java.util.Scanner;
 // By assuming the container min is the first element of an array (which is minimum value(not yet)), it compares with other values in an array and makes decision what is the lowest
 
 /**
- *
- *
- *
- *
+ *Time complexity is O(n)
+ * Because the loop will iterate n times the same as the input n value
+ *which makes it linear.
  */
+
 public class Task1 {
     public static int findMinimum(int[] arr) {
         int min = arr[0];
