@@ -11,5 +11,5 @@ FUNCTIONS:
 6. Returns a^n (inputted)
 7. Returns reversed array
 8. Returns true or false value whether the inputted String value contsists digits or not respectively
-9. Returns 
+9. Returns binominal coefficent
 10. Returns gcd of twon inputted integers
