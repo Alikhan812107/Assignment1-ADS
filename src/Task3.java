@@ -5,6 +5,10 @@ public class Task3 {
      * Here I used mathematical approach to identify whether the input number is prime or not.
      * If one of the factors of n is less or equal than square root of n, then it is composite
      * That is why time complexity is O(sqrt(n))
+     *
+     *@param n The integer number to check for primality
+     *@return true if the number is prime, false otherwise
+     *
      **/
 
     public static boolean isPrime(int n) {

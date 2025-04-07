@@ -1,16 +1,19 @@
 import java.util.Scanner;
 
-/**
- * Recursively calculates the binomial coefficient C(n, k).
- * Uses the formula: C(n, k) = C(n-1, k-1) + C(n-1, k)
- * Base cases: C(n, 0) = C(n, n) = 1
- *
- * Time Complexity: O(2^n) - Exponential complexity due to recursion.
- *
- *
- */
 
 public class Task9 {
+
+    /**
+     * Recursively calculates the binomial coefficient C(n, k).
+     * Uses the formula: C(n, k) = C(n-1, k-1) + C(n-1, k)
+     * Base cases: C(n, 0) = C(n, n) = 1
+     *
+     * Time Complexity: O(2^n) - Exponential complexity due to recursion.
+     *
+     * @param n The total number of items
+     * @param k The number of items to choose
+     * @return The binomial coefficient C(n, k)
+     */
 
     public static int binomialCoefficient(int n, int k) {
         if (k == 0 || k == n) {
@@ -27,5 +30,4 @@ public class Task9 {
 
         System.out.println(binomialCoefficient(n, k));
     }
-
 }

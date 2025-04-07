@@ -1,15 +1,20 @@
 import java.util.Scanner;
 
-/**
- * The function checks if every character of s a digit (0-9)
- * Scanner reads input Strings
- * The function returns true or false in case of our inputted String
- *
- * Time complexity is O(n)
- * n is the length of a string and it goes linear
- */
 
 public class Task8 {
+
+    /**
+     * The function checks if every character of s a digit (0-9)
+     * Scanner reads input Strings
+     * The function returns true or false in case of our inputted String
+     *
+     * Time complexity is O(n)
+     * n is the length of a string and it goes linear
+     *
+     * @param s The string to check for digits
+     * @return true if all characters are digits, false otherwise
+     */
+
     public static boolean isAllDigits(String s) {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);

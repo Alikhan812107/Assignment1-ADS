@@ -1,14 +1,20 @@
 // importing scanner
 import java.util.Scanner;
 
-/**
- * Time complexity is O(n) which is linear
- * because if n will be 5 (array length) the loop will iterate exactly 5 times and same for any values
- * (at least positive)
- */
+
 
 // function which finds an average
 public class Task2 {
+
+    /**
+     * Time complexity is O(n) which is linear
+     * because if n will be 5 (array length) the loop will iterate exactly 5 times and same for any values
+     * (at least positive)
+     *
+     *@param arr The array of integers to calculate the average
+     *@return The average of the array elements as a double
+     */
+
     public static double findAverage(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {

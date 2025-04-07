@@ -6,11 +6,12 @@ import java.util.Scanner;
  * Time complexity is O(log n)
  * to calculate a^n we reduce the problem in each step,
  * halving the exponent each time, which leads to O(log n) time complexity.
+ *
+ * Since this implementation uses Math.pow() directly in main(),
+ * there are no explicit parameters or return value to document with @param/@return.
  */
 
 public class Task6 {
-
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
@@ -18,6 +19,4 @@ public class Task6 {
         System.out.println(Math.pow(a, n));
         sc.close();
     }
-
-
 }
